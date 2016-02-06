@@ -1,7 +1,5 @@
 # Sheepable Engine #
-> ECS game engine developed with scala.js
-
-> TODO: Rename this project. Or not. :sheep:
+> ECS game engine for [Sheepable](https://github.com/monotomato/sheepable) project powered by Scala.js :sheep:
 
 ## Development ##
 
