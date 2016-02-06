@@ -1,7 +1,7 @@
 # Sheepable Engine #
 > ECS game engine developed with scala.js
 
->TODO: Rename this project. Or not.
+> TODO: Rename this project. Or not. :sheep:
 
 ## Development ##
 
@@ -19,8 +19,11 @@ Sbt will compile code and update your browser tab automatically.
 This project uses [workbench](https://github.com/lihaoyi/workbench) tool by lihaoyi.
 
 ### Linter-scalac and classpath ###
-[linter-scalac](https://atom.io/packages/linter-scalac)  might freak out if `.classpath` is not defined.
-Run `sbt 'export fullClasspath'` and copy classpath to `.classpath`.
+[linter-scalac](https://atom.io/packages/linter-scalac)  might freak out if `./.classpath` file is not defined.
+To fix this run `sbt 'export fullClasspath'` and copy classpath to `.classpath`.
 
 ## Technologies ##
-* [Scala.js](http://www.scala-js.org/)
+* [Scala.js](http://www.scala-js.org/) - [docs](http:://www.scala-js.org/doc/)
+
+## Useful stuff to read ##
+* http://www.scala-js.org/doc/interoperability/export-to-javascript.html

@@ -6,10 +6,8 @@ import org.scalajs.dom
 
 import engine._
 
-@JSExport
 object DevApp extends JSApp {
 
-  @JSExport
   def main(): Unit = {
     init()
   }
